@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+  font-family: "Poppins", sans-serif;
+}
+/* Global Variables */
+:root {
+  /* color  */
+  --color-primary: #FF5349;
+  --color-text: #121212;
+  --color-dark: #010B24;
+}
+@layer components {
+ /* @TODO: Typography */
+ .paragraph-default {
+    @apply text-[16px] md:text-[18px] leading-[21px] md:leading-[30px] font-normal text-[#222];
+  }
+  .paragraph-large {
+    @apply text-[18px] sm:text-[24px] leading-[24px] sm:leading-[34px] font-normal text-[color:var(--color-secondary)];
+  }
+  .paragraph-small {
+    @apply text-[16px] leading-[21px] font-semibold;
+  }
+  .figure-caption {
+    @apply text-[16px] leading-[22px] font-normal;
+  }
+  .heading-1 {
+    @apply text-[38px] 
+    sm:text-[57px]
+    md:text-[76px] 
+    leading-[49px] 
+    sm:leading-[74px]
+    md:leading-[99px] 
+    font-bold text-white;
+  }
+  .heading-2 {
+    @apply text-[32px] md:text-[57px] leading-[42px] md:leading-[74px] font-bold text-[#222];
+  }
+  .heading-3 {
+    @apply text-[32px] md:text-[43px] leading-[42px] md:leading-[56px] font-bold;
+  }
+  .heading-4 {
+    @apply text-[18px] md:text-[32px] leading-[34px] md:leading-[42px] font-semibold text-white;
+  }
+  .heading-5 {
+    @apply text-[18px] sm:text-[24px] leading-[23px] sm:leading-[31px] font-semibold;
+  }
+  .heading-6 {
+    @apply text-[16px] md:text-[18px] leading-[23px] font-semibold;
+  }
+  /* custom classes*/
+  .zoom {
+    @apply hover:scale-150 transition-all duration-1000;
+  }
+}
+
+.showcase:hover .overlay {
+  opacity: 20;
+}
+.overlay {
+  opacity: 0;
+  transition: all;
+  transition-duration: 500ms;
+}
+.specialization:hover .icon-span {
+  background-color: white;
+  color: #ff5349;
+}
+
+@media (min-width: 768px) {
+  .dropdown-button:hover .dropdown {
+    display: flex;
+  }
+  .dropdown {
+    display: flex;
+    display: none;
+    flex-direction: column;
+  }
+}
+
+.custom-animated-link {
+  width: 100px;
+  height: 50px;
+}
