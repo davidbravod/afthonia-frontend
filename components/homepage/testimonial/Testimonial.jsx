@@ -34,7 +34,7 @@ const Testimonial = () => {
 
   return (
     <section className="bg-[url('/images/testimonial/bg.png')] bg-white bg-left-bottom bg-no-repeat">
-      <div className="max-w-[1296px] mx-auto pt-[65px] md:pt-[115px] pb-[70px] md:pb-[120px]" style={{"margin-bottom":"80px"}}>
+      <div className="max-w-[1296px] mx-auto pt-[65px] md:pt-[115px] pb-[70px] md:pb-[120px]" style={{"marginBottom":"80px"}}>
         <div className="flex justify-center mx-2 lg:mx-0">
           <motion.div initial={{translateY:'20px', opacity:0}} whileInView={{translateY:0, opacity:1}} transition={{duration: .5}} className="max-w-[640px] text-center">
             <h5 className="heading-5 text-[var(--color-primary)]">

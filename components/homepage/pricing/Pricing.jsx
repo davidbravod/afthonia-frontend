@@ -7,7 +7,7 @@ import Link from "next/link";
 const Pricing = () => {
   return (
     <section className="bg-[url('/images/pricing/map-bg.png')] bg-white bg-bottom bg-no-repeat h-full">
-      <div className="max-w-[1296px] mx-auto pt-16 md:pt-[115px] pb-[70px] md:pb-[120px]" style={{"padding-top":"40px"}}>
+      <div className="max-w-[1296px] mx-auto pt-16 md:pt-[115px] pb-[70px] md:pb-[120px]" style={{"paddingTop":"40px"}}>
         <div className="flex justify-center mx-2 xl:mx-0">
           <motion.div initial={{translateY:'20px', opacity:0}} whileInView={{translateY:0, opacity:1}} transition={{duration: .5}} className="max-w-[640px] text-center">
             <h5 className="heading-5 text-[var(--color-primary)]">Pricing</h5>

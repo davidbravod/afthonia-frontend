@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 const Solution = () => {
   return (
     <section className="bg-[#FFFDFA]">
-      <div className="max-w-[1296px] mx-auto pt-[60px] pb-[70px] md:pt-[112px] md:pb-[120px]" style={{"padding-bottom":"40px"}}>
+      <div className="max-w-[1296px] mx-auto pt-[60px] pb-[70px] md:pt-[112px] md:pb-[120px]" style={{"paddingBottom":"40px"}}>
         <div className="flex justify-center mx-2 lg:mx-0 mb-10 md:mb-[60px]">
           <motion.div initial={{translateY:'20px', opacity:0}} whileInView={{translateY:0, opacity:1}} transition={{duration: .5}} className="max-w-3xl text-center">
             <h5 className="heading-5 text-[var(--color-primary)]">All-In-One Platform</h5>
