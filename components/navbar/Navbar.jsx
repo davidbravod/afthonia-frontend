@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import AnimatedLink from "../Others/AnimatedLink";
+import AnimatedLink from "../others/AnimatedLink";
 import { BsChevronDown } from "react-icons/bs";
 import { FiSearch } from "react-icons/fi";
 import { HiMenu } from "react-icons/hi";

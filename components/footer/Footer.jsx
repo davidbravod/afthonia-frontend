@@ -2,7 +2,7 @@ import Image from "next/image";
 import { HiArrowNarrowRight, HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
 import { SlLocationPin } from "react-icons/sl";
-import Social from "../Others/Social";
+import Social from "../others/Social";
 import {motion} from 'framer-motion'
 import Link from "next/link";
 const Footer = () => {

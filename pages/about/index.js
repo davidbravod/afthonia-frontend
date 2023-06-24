@@ -1,8 +1,8 @@
-import About from "../../components/About/About";
-import Banner from "../../components/About/Banner";
-import Team from "../../components/About/Team";
-import Clients from "../../components/About/ClientsLove";
-import Testimonial from "../../components/Homepage/Testimonial/Testimonial";
+import About from "../../componentsaAbout/About";
+import Banner from "../../components/about/Banner";
+import Team from "../../components/about/Team";
+import Clients from "../../components/about/ClientsLove";
+import Testimonial from "../../components/homepage/testimonial/Testimonial";
 
 const index = () => {
   return (

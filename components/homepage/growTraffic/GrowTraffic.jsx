@@ -2,7 +2,7 @@ import CountUp from "react-countup";
 import { bannerStates } from "../../../data/bannerstate";
 import Image from "next/image";
 import { features } from "../../../data/featurs";
-import AnimatedLink from "../../Others/AnimatedLink";
+import AnimatedLink from "../../others/AnimatedLink";
 import { AnimatePresence, motion } from 'framer-motion'
 
 const GrowTraffic = () => {

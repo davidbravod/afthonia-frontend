@@ -1,5 +1,5 @@
-import Banner from "../components/Error/Banner";
-import Error from "../components/Error/Error";
+import Banner from "../components/error/Banner";
+import Error from "../components/error/Error";
 
 const _error = () => {
   return (

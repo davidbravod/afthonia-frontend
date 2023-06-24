@@ -1,5 +1,5 @@
-import Banner from "../../components/Blog/Banner";
-import BlogDetails from "../../components/Blog/BlogDetails";
+import Banner from "../../components/blog/Banner";
+import BlogDetails from "../../components/blog/BlogDetails";
 const Blog = () => {
   return (
     <>

@@ -4,7 +4,7 @@ import { Context } from "../../../store/appContext";
 import { bannerStates } from "../../../data/bannerstate";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import AnimatedLink from "../../Others/AnimatedLink";
+import AnimatedLink from "../../others/AnimatedLink";
 import BannerImg from "../../../public/images/banner/rocket.png";
 
 const Banner = () => {

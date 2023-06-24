@@ -1,13 +1,13 @@
 import Head from "next/head";
-import Banner from '../components/Homepage/Banner/Banner'
-import GrowTraffic from '../components/Homepage/GrowTraffic/GrowTraffic'
-import Solution from '../components/Homepage/Solution/Solution'
-import Service from '../components/Homepage/Service/Service'
-import Workflow from "../components/Homepage/Workflow/Workflow";
-import Clients from "../components/Homepage/Clients/Clients";
-import Pricing from '../components/Homepage/Pricing/Pricing'
-import Testimonial from "../components/Homepage/Testimonial/Testimonial";
-import Blog from '../components/Homepage/Blog/Blog'
+import Banner from '../components/homepage/banner/Banner'
+import GrowTraffic from '../components/homepage/growTraffic/GrowTraffic'
+import Solution from '../components/homepage/solution/Solution'
+import Service from '../components/homepage/service/Service'
+import Workflow from "../components/homepage/workflow/Workflow";
+import Clients from "../components/homepage/clients/Clients";
+import Pricing from '../components/homepage/pricing/Pricing'
+import Testimonial from "../components/homepage/testimonial/Testimonial";
+import Blog from '../components/homepage/blog/Blog'
 export default function Home() {
   return (
     <>

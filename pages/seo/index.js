@@ -1,9 +1,9 @@
-import Banner from '../../components/Seo/Banner';
-import Marketing from '../../components/Seo/Marketing';
-import PricingSeo from '../../components/Seo/PricingSeo';
-import Seo from '../../components/Seo/Seo';
-import SeoWork from '../../components/Seo/SeoWork';
-import Specialization from '../../components/Seo/Specialization';
+import Banner from '../../components/seo/Banner';
+import Marketing from '../../components/seo/Marketing';
+import PricingSeo from '../../components/seo/PricingSeo';
+import Seo from '../../components/seo/Seo';
+import SeoWork from '../../components/seo/SeoWork';
+import Specialization from '../../components/seo/Specialization';
 
 const index = () => {
     return (

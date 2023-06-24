@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AnimatedLink from "../../Others/AnimatedLink";
+import AnimatedLink from "../../others/AnimatedLink";
 import {motion} from 'framer-motion'
 
 const Service = () => {

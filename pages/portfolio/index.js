@@ -1,5 +1,5 @@
-import Banner from "../../components/Portfolio/Banner";
-import Portfolio from "../../components/Portfolio/Portfolio";
+import Banner from "../../components/portfolio/Banner";
+import Portfolio from "../../components/portfolio/Portfolio";
 
 const index = () => {
   return (
