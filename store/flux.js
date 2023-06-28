@@ -1,3 +1,5 @@
+import { statesStore, statesActions } from "./statesStore.js"
+
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
@@ -14,9 +16,12 @@ const getState = ({ getStore, getActions, setStore }) => {
 					initial: "white"
 				}
 			],
+			...statesStore,
 		},
+		
 		actions: {
-			// Use getActions to call a function within a fuction
+			...statesActions(getStore, getActions, setStore),
+
 			exampleFunction: () => {
 				getActions().changeColor(0, "green");
 			},

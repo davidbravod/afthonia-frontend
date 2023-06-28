@@ -1,3 +1,5 @@
+import React, { useContext, useState, useEffect } from "react";
+import { Context } from "../../store/appContext"
 import Image from "next/image";
 import { HiArrowNarrowRight, HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
@@ -6,6 +8,12 @@ import Social from "../others/Social";
 import {motion} from 'framer-motion'
 import Link from "next/link";
 const Footer = () => {
+  const { store, actions } = useContext(Context);
+  const [statesList, setStatesList] = useState([])
+
+  useEffect(() => {
+    setStatesList(store.states);
+}, [store.states]);
   return (
     <footer className="bg-[url('/images/footer/bg-shape.png')] relative bg-no-repeat bg-right-bottom bg-[#07112D]">
       <div className="max-w-[1296px] mx-auto pt-[30px] lg:pt-0">
@@ -16,7 +24,7 @@ const Footer = () => {
           <p className="figure-caption text-white mb-4 lg:mb-[40px]">
             It will not take more than 10 minutes!
           </p>
-          <form className="flex md:gap-8 md:px-4 px-3 py-2 justify-between bg-white max-w-xs rounded-full">
+          {/* <form className="flex md:gap-8 md:px-4 px-3 py-2 justify-between bg-white max-w-xs rounded-full">
             <input
               className="bg-white focus:outline-none text-black"
               type="email"
@@ -26,7 +34,22 @@ const Footer = () => {
             <button type="submit" className="p-1 text-white md:p-2 rounded-full bg-[#FD5A3A] duration-300 hover:shadow-lg hover:shadow-[#ff52497a]">
               <HiArrowNarrowRight size={30} />
             </button>
-          </form>
+          </form> */}
+          <div className="flex md:gap-8 md:px-4 px-3 py-2 justify-between bg-white max-w-xs rounded-full">
+            <select className="bg-white focus:outline-none text-black-900">
+              <option>Choose Your State</option>
+              {statesList.map((item, index) => (
+                <option key={index} value={item.code}>
+                  {item.state}
+                 </option>
+                ))}
+            </select>
+            <Link href="http://3.20.99.70:3000/signup">
+            <button type="button" className="p-1 text-white md:p-2 rounded-full bg-[#FD5A3A] duration-300 hover:shadow-lg hover:shadow-[#ff52497a]">
+              <HiArrowNarrowRight size={30} />
+            </button>
+            </Link>
+          </div>
         </div>
 
         <div className="grid grid-cols-12 mx-5 xl:mx-0 gap-5 pt-[70px] md:pt-[85px] mt-0 lg:-mt-[124px] lg:-pt-0 pb-[66px] md:pb-[120px] border-b-2 border-[#636363] text-white">
@@ -73,7 +96,7 @@ const Footer = () => {
           <div className="col-span-12 flex flex-col paragraph-default gap-4 md:col-span-6 lg:col-span-3">
             <Link href="/service"><a><h5 className="heading-5 text-white mt-2 md:mt-0">Services</h5></a></Link>
             <div className=" inline-flex gap-1 text-[#C0C0C0] flex-col">
-              {[["Business Formation", ""], ["Registered Agent", ""],["EIN Application", ""],["Web Hosting", ""], ["More...", "service"]].map(([title, url]) => (
+              {[["Business Formation", "service"], ["Registered Agent", "service"],["EIN Application", "service"],["Web Hosting", "service"], ["More...", "service"]].map(([title, url]) => (
                 <Link href={`/${url}`} key={title}>
                   <a className="hover:translate-x-1 hover:text-[var(--color-primary)] duration-300">{title}</a>
                 </Link>
