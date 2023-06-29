@@ -34,7 +34,7 @@ const Banner = () => {
             </div>
 
             <AnimatedLink
-              link="http://localhost:3000/signup"
+              link="http://3.20.99.70:3000/signup"
               name="Get Started Now"
               classes="paragraph-default"
             />
