@@ -59,7 +59,7 @@ const Pricing = () => {
                   ))}
                 </ul>
                 <div className="flex justify-center pt-7 md:pt-[40px] pb-2">
-                <Link href="http://3.20.99.70:3000/signup">
+                <Link href="http://admin.afthonia.us/signup">
                   <button
                     className={`px-8 figure-caption py-3 border text-[#222] rounded-md border-black hover:bg-[#FF5A42] hover:text-white hover:border-[#FF5A42] hover:shadow-lg hover:shadow-[#ff5b425e] duration-300`}
                   >
