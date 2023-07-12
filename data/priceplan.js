@@ -7,21 +7,21 @@ export const priceplan = [
         id:1, 
         title: 'Freelancer Plan',
         price: 99,
-        features: ['LLC Formation', 'Registered Agent (1 year)', 'Keep your privacy, use our address', 'EIN Application', '24/7 Virtual Office', 'Compliance Notifications', '1 Business Email (1 year)', 'Banking Application Process'],
+        features: ['LLC Formation', 'Registered Agent', 'EIN Application', 'Keep your privacy, use our address', 'Same-day documents scanning', 'Mail Forwarding', '24/7 Virtual Office', 'Compliance Notifications', 'Banking Application'],
         bg:globe
     },
     {
         id:2, 
         title: 'Small Business Plan',
         price: 299,
-        features: ['All Freelancer Plan PLUS:', 'Operating Agreement', 'Appointments Calendar', 'Business Phone Number (1 year)', 'Web Hosting (1 year)', 'Domain (1 year)', 'Unlimited Business Emails (1 year)', 'Website Builder (1 year)'],
+        features: ['All Freelancer Plan PLUS:', 'Operating Agreement for LLCs', 'Bylaws for Corporations', 'Contract Templates', 'Domain Register', 'Unlimited Business Emails', 'Email Autoresponder', 'Web Hosting', 'Wordpress Website Builder'],
         bg:rocket
     },
     {
         id:3, 
         title: 'Enterprise Plan',
         price: 499,
-        features: ['All Small Business Plan PLUS:', 'Email Campaigns Powered by AI', 'Social Media Posts Powered by AI', 'Email Autoresponder (1 year)', 'Contract Templates', 'Courses Library', '3 Consultation Calls', 'IRS Filing Forms 5472 and 1120'],
+        features: ['All Small Business Plan PLUS:', 'Email Campaigns Powered by AI', 'Social Media Posts Powered by AI', 'Courses Library', '3 Consultation Calls', 'IRS Filing Forms 5472 and 1120'],
         bg: union
     },
 ]

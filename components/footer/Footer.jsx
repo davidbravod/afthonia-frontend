@@ -44,7 +44,7 @@ const Footer = () => {
                  </option>
                 ))}
             </select>
-            <Link href="http://3.20.99.70:3000/signup">
+            <Link href="http://admin.afthonia.us/signup">
             <button type="button" className="p-1 text-white md:p-2 rounded-full bg-[#FD5A3A] duration-300 hover:shadow-lg hover:shadow-[#ff52497a]">
               <HiArrowNarrowRight size={30} />
             </button>

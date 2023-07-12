@@ -111,14 +111,14 @@ const Header = () => {
             </li> */}
             <li className="py-2 md:py-4 lg:py-[35px]">
               <AnimatedLink
-                link="http://3.20.99.70:3000/signup"
+                link="http://admin.afthonia.us/signup"
                 name="Register"
                 classes="paragraph-default w-24 h-12 flex items-center justify-center"
               />
             </li>
             <li className="py-2 md:py-4 lg:py-[35px]">
               <AnimatedLink
-                link="http://3.20.99.70:3000/login"
+                link="http://admin.afthonia.us/login"
                 name="Login"
                 classes="paragraph-default w-24 h-12 flex items-center justify-center bg-gray-700"
               />
