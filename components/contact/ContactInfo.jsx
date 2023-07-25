@@ -37,7 +37,7 @@ const ContactInfo = () => {
           <SlLocationPin className="shrink-0 text-2xl md:text-4xl" />
           <p className="paragraph-large">
           7901 4TH ST N STE 300. <br /> ST. PETERSBURG, FL.
-          33702 USA
+          33702 US
           </p>
         </address>
       </div>
