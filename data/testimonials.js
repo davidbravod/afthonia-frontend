@@ -1,8 +1,8 @@
-import image1 from '../public/images/testimonial/1.png'
-import image2 from '../public/images/testimonial/2.png'
-import image3 from '../public/images/testimonial/3.png'
-import image4 from '../public/images/testimonial/4.png'
-import image5 from '../public/images/testimonial/5.png'
+import image1 from '../public/images/testimonial/avm.png'
+import image2 from '../public/images/testimonial/amic.png'
+import image3 from '../public/images/testimonial/raydiant.png'
+import image4 from '../public/images/testimonial/hexxan.png'
+import image5 from '../public/images/testimonial/turgus.png'
 
 export const testimonials = [
     {
