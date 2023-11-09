@@ -13,7 +13,7 @@ const Banner = () => {
           </h1>
           <p className="paragraph-default text-white">
             <Link href="/">
-              <a>Home </a>
+              <a>Home</a>
             </Link>{" "}
             → Pages → Portfolio{" "}
           </p>
