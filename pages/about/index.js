@@ -9,8 +9,8 @@ const index = () => {
     <>
       <Banner />
       <About />
-      {/* <Team />
-      <Testimonial />
+      <Team />
+      {/* <Testimonial />
       <Clients /> */}
     </>
   );
