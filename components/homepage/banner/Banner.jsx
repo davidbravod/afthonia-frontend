@@ -29,7 +29,7 @@ const Banner = () => {
                 <span className="text-[var(--color-primary)]">Us.</span>{" "}
               </h1>
               <p className="paragraph-large text-[#222222] mb-6 md:mb-8">
-                It shouldn't be that hard, right? We will help you form your business and it will take no more than 10 minutes.
+              It shouldn&apos;t be that hard, right? We will help you form your business and it will take no more than 10 minutes.
               </p>
             </div>
 
